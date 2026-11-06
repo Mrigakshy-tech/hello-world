@@ -29,3 +29,26 @@ button {
 button:hover {
     background-color: #eeeeee;
 }
+
+
+/* Responsive design for mobile devices */
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 70px 15px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
